@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int l,b;
+    cout<<"ENter the length"<<endl;
+    cin>>l;
+    cout<<"ENter the bredth"<<endl;
+    cin>>b;
+    
+    if(l==b) {
+        cout<<"It is a square."<<endl;
+    }
+    else{
+        cout<<"it is a rectangle."<<endl;
+    }
+    
+    
+}
