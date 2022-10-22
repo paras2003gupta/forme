@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   int a;
+   cout<<"enter the value of num1"<<endl;
+   cin>>a;
+   char ch;
+   cout<<"enter the operation u want to perform"<<endl;
+   cin>>ch;
+   int b;
+   cout<<"Enter the num2 "<<endl;
+   cin>>b;
+   switch(ch) {
+       case ('+'): cout<<"a+b=>"<<a+b<<endl;
+       break;
+       case ('-'): cout<<"a-b=>"<<a-b<<endl;
+       break;
+       case ('*'): cout<<"a*b=>"<<a*b<<endl;
+       break;
+       case ('/'): cout<<"a/b=>"<<a/b<<endl;
+       break;
+          
+   }
+   
+   
+   
+}
